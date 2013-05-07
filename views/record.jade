@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div#newRoom.button Create a new room
+  div#videos
+    video(autoplay id='you')
+    video(autoplay id='me')
+  - var html = "<script src='/javascripts/uservideo.js'></script>"
+  | !{html}
