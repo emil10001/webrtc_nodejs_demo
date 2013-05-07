@@ -8,6 +8,6 @@
   "dependencies": {
     "express": "3.2.2",
     "jade": "*",
-    "webrtc.io": "*",
+    "webrtc.io": "*"
   }
 }
